@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int sapXep(char str[50]) {
+void sapXep(char str[50]) {
     int n = strlen(str);
     for (int i = 0; i< n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
